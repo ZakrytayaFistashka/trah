@@ -1,0 +1,75 @@
+{
+  "name": "hi.academy",
+  "version": "1.0.0",
+  "description": "Hi academy",
+  "author": "Roma Kosovichev <roma@roma.so>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "static": "mkdir ./output/static/ && cp -r ./assets/static/ ./output/",
+    "generate": "nuxt generate && yarn static",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "prep": "yarn install && yarn generate"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules(?![\\\\/]vue-awesome[\\\\/])/"
+    ],
+    "moduleNameMapper": {
+      "^~/(.*)$": "<rootDir>/$1"
+    },
+    "mapCoverage": true
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^1.5.4",
+    "nuxt": "^1.3.0",
+    "text-to-svg": "^3.1.3",
+    "vectorize-text": "^3.0.2",
+    "vee-validate": "^2.1.0-beta.7",
+    "vue-a2b": "^0.2.2",
+    "vue-color": "^2.7.0",
+    "vue-cookie": "^1.1.4",
+    "vue-drag-resize": "^1.3.2",
+    "vue-draggable-resizable": "^1.7.2",
+    "vue-free-transform": "^1.0.11",
+    "vue-i18n": "^8.8.2",
+    "vue-slider-component": "^2.7.6",
+    "vue-typer": "^1.2.0",
+    "vuedraggable": "^2.16.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.0.1",
+    "array.prototype.find": "^2.0.4",
+    "autoprefixer": "^8.0.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.12.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "jest": "^22.3.0",
+    "postcss-advanced-variables": "^2.3.3",
+    "postcss-media-minmax": "^3.0.0",
+    "postcss-nested": "^3.0.0",
+    "vue-jest": "^2.1.0",
+    "vue-moment": "^4.0.0"
+  }
+}

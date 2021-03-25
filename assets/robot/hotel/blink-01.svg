@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="302px" height="662px" viewBox="0 0 302 662" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>eyes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M35.8965105,1.87109375 C41.0224871,3.39453125 46.6318621,8.59185261 34.5976824,14.1738281 C22.5635027,19.7558036 6.78908862,15.8842798 2.25881518,12.5947266 C-2.27145825,9.30517337 -0.431130798,4.66503906 11.8486589,1.87109375 C24.1284487,-0.922851563 30.7705339,0.34765625 35.8965105,1.87109375 Z" id="path-1"></path>
+        <path d="M18.4570313,17.0107601 C8.734375,17.0107601 1.79132639e-12,14.3157872 1.79056769e-12,8.81154135 C1.79056769e-12,3.30729545 11.1552734,0.0361507255 18.4570313,0.0361507255 C25.7587891,0.0361507255 39.1640625,-0.789705211 40.8574219,5.45314291 C42.5507813,11.695991 28.1796875,17.0107601 18.4570313,17.0107601 Z" id="path-3"></path>
+    </defs>
+    <g id="eyes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval" transform="translate(65.063450, 301.218016)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FCF6ED" xlink:href="#path-1"></use>
+            <ellipse fill="#49515E" mask="url(#mask-2)" cx="20.4365496" cy="8" rx="6.5" ry="7"></ellipse>
+        </g>
+        <g id="Oval" transform="translate(187.999023, 298.129131)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Mask" fill="#FCF6ED" xlink:href="#path-3"></use>
+            <ellipse fill="#49515E" mask="url(#mask-4)" cx="19.5009766" cy="7.0888851" rx="6.5" ry="7"></ellipse>
+        </g>
+    </g>
+</svg>
